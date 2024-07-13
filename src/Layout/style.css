@@ -1,0 +1,26 @@
+.layout{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.layout .label{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.layout-border{
+    padding: 6px;
+    border-radius: 6px;
+    width: max-content;
+    margin-bottom: 24px;
+    background: linear-gradient(to right, #0094ff, #bb2cbb);
+}
