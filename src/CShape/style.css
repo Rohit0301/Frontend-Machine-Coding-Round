@@ -1,0 +1,30 @@
+.c-shape{
+    display: grid;
+    cursor: pointer;
+    margin-top: 12px;
+    grid-row-gap: 2rem;
+    grid-column-gap: 7rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.c-shape .element{
+    width: 3rem;
+    height: 3rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 243, 3);
+}
+.c-shape .element[data-visible="false"]{
+    visibility: hidden;
+}
+
+.c-shape .element[data-selected="true"]{
+    color: white;
+    background-color: green;
+}
+.c-shape .element[data-selected="false"]{
+    color: #333;
+    background-color: rgb(243, 243, 3);
+}
