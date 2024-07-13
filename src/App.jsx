@@ -1,6 +1,7 @@
 import CShape from "./CShape";
 import Layout from "./Layout";
 import Ratings from "./Ratings";
+import Tabs from "./Tabs";
 import TrafficLights from "./TrafficLights";
 const components = [
 	{
@@ -15,6 +16,10 @@ const components = [
 		name: "CShape",
 		Component: CShape,
 	},
+	{
+		name: "Tabs",
+		Component:  Tabs
+	}
 ];
 function App() {
 	return (
