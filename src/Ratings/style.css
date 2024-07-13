@@ -1,0 +1,34 @@
+/* All the elements which are not check in ratings div make there label grey */
+.rating:not(:checked) > label {
+    color:#ccc;
+}
+.rating{
+    gap: 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.rating label{
+    font-size: 20px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+/* change the color to orange for the label which we hovered */
+.rating > label:hover,
+/* change the color of all label after the current hovered label. since we have reverse the flex direction
+therefore the label before the hovered label affected by this */
+.rating > label:hover ~ label{
+    color: orange;
+}
+
+/* change the color to orange for the label whose radio is checked */
+.rating > input:checked label,
+/* change the color of all label after the current check radio label. since we have reverse the flex direction
+therefore the label before the checked label affected by this */
+.rating > input:checked ~ label{
+    color: orange
+}
