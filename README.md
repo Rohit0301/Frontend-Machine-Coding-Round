@@ -8,3 +8,4 @@
 - Tabs
 - Loader
 - Progress Bar
+- Accodion
