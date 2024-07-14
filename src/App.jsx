@@ -1,7 +1,9 @@
+import Tabs from "./Tabs";
 import CShape from "./CShape";
 import Layout from "./Layout";
+import Loader from "./Loader";
 import Ratings from "./Ratings";
-import Tabs from "./Tabs";
+import ProgressBar from "./ProgressBar";
 import TrafficLights from "./TrafficLights";
 const components = [
 	{
@@ -19,6 +21,14 @@ const components = [
 	{
 		name: "Tabs",
 		Component:  Tabs
+	},
+	{
+		name: "Loader",
+		Component:  Loader
+	},
+	{
+		name: "Progress Bar",
+		Component:  ProgressBar
 	}
 ];
 function App() {

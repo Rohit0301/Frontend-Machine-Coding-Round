@@ -6,3 +6,5 @@
 - Traffic Lights
 - C Shape
 - Tabs
+- Loader
+- Progress Bar

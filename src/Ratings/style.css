@@ -25,8 +25,6 @@ therefore the label before the hovered label affected by this */
     color: orange;
 }
 
-/* change the color to orange for the label whose radio is checked */
-.rating > input:checked label,
 /* change the color of all label after the current check radio label. since we have reverse the flex direction
 therefore the label before the checked label affected by this */
 .rating > input:checked ~ label{
