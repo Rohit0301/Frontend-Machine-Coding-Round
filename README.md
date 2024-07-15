@@ -9,3 +9,4 @@
 - Loader
 - Progress Bar
 - Accodion
+- Infinite Table Scroll

@@ -6,6 +6,7 @@ import Ratings from "./Ratings";
 import Accordion from "./Accordion";
 import ProgressBar from "./ProgressBar";
 import TrafficLights from "./TrafficLights";
+import Table from "./Table";
 const components = [
 	{
 		name: "Star Rating",
@@ -34,6 +35,10 @@ const components = [
 	{
 		name: "Progress Bar",
 		Component: ProgressBar,
+	},
+	{
+		name: "Infinite Scroll Table",
+		Component: Table,
 	},
 ];
 function App() {
