@@ -7,6 +7,7 @@ import Accordion from "./Accordion";
 import ProgressBar from "./ProgressBar";
 import TrafficLights from "./TrafficLights";
 import Table from "./Table";
+import Modal from "./Modal";
 const components = [
 	{
 		name: "Star Rating",
@@ -39,6 +40,10 @@ const components = [
 	{
 		name: "Infinite Scroll Table",
 		Component: Table,
+	},
+	{
+		name: "Modal",
+		Component: Modal,
 	},
 ];
 function App() {
