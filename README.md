@@ -11,3 +11,4 @@
 - Accodion
 - Infinite Table Scroll
 - Modal
+- Timer

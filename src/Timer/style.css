@@ -1,0 +1,19 @@
+.button-container{
+    gap:12px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.button-container button{
+    cursor: pointer;
+    padding: 6px 16px;
+}
+
+.timer{
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 12px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}

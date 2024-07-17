@@ -8,6 +8,7 @@ import ProgressBar from "./ProgressBar";
 import TrafficLights from "./TrafficLights";
 import Table from "./Table";
 import Modal from "./Modal";
+import Timer from "./Timer";
 const components = [
 	{
 		name: "Star Rating",
@@ -44,6 +45,10 @@ const components = [
 	{
 		name: "Modal",
 		Component: Modal,
+	},
+	{
+		name: "Timer",
+		Component: Timer,
 	},
 ];
 function App() {
