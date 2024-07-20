@@ -9,6 +9,7 @@ import TrafficLights from "./TrafficLights";
 import Table from "./Table";
 import Modal from "./Modal";
 import Timer from "./Timer";
+import SelectableGrid from "./SelectableGrid";
 const components = [
 	{
 		name: "Star Rating",
@@ -49,6 +50,10 @@ const components = [
 	{
 		name: "Timer",
 		Component: Timer,
+	},
+	{
+		name: "Selectable Grid",
+		Component: SelectableGrid,
 	},
 ];
 function App() {

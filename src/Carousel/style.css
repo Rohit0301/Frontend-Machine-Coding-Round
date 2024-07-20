@@ -1,0 +1,23 @@
+.carousel-image{
+    height: 10rem;
+    width: 14rem;
+    height: 10rem;
+    color: white;
+    position: relative;
+    border-radius: 4px;
+    background-color: black;
+}
+.image-container{
+    left: 0;
+    gap: 12px;
+    display: flex;
+    position: absolute;
+    transition: all 2s ease-out;
+}
+.carousel{
+    width: 28rem;
+    display: flex;
+    padding: 12px;
+    overflow: hidden;
+}
+

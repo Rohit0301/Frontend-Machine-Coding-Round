@@ -1,0 +1,21 @@
+.grid-container{
+    gap: 4px;
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.grid{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1.5px solid #dddbdb;
+    transition: background-color 0.4s ease 0s;
+}
+
+.grid.active{
+    border-color: #0094ff;
+    background-color: #0094ff;
+}
