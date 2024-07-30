@@ -9,6 +9,7 @@
 - Loader
 - Progress Bar
 - Accodion
-- Infinite Table Scroll
+- Lazy loading Scroll
 - Modal
 - Timer
+- Virtualized List
