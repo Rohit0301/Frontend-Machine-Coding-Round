@@ -1,4 +1,7 @@
 import Tabs from "./Tabs";
+import Table from "./Table";
+import Modal from "./Modal";
+import Timer from "./Timer";
 import CShape from "./CShape";
 import Layout from "./Layout";
 import Loader from "./Loader";
@@ -6,10 +9,8 @@ import Ratings from "./Ratings";
 import Accordion from "./Accordion";
 import ProgressBar from "./ProgressBar";
 import TrafficLights from "./TrafficLights";
-import Table from "./Table";
-import Modal from "./Modal";
-import Timer from "./Timer";
 import SelectableGrid from "./SelectableGrid";
+import VirtualizedList from "./VirtualizedList";
 const components = [
 	{
 		name: "Star Rating",
@@ -40,7 +41,7 @@ const components = [
 		Component: ProgressBar,
 	},
 	{
-		name: "Infinite Scroll Table",
+		name: "Lazy loading Table",
 		Component: Table,
 	},
 	{
@@ -55,10 +56,30 @@ const components = [
 		name: "Selectable Grid",
 		Component: SelectableGrid,
 	},
+	{
+		name: "Virtualized List",
+		Component: VirtualizedList,
+	},
 ];
 function App() {
 	return (
 		<div>
+			<nav>
+				<a
+					href="https://www.linkedin.com/in/rohitjain0301/"
+					target="_blank"
+					style={{ color: "	#0077B5" }}
+				>
+					Linkedin
+				</a>
+				<a
+					href="https://github.com/Rohit0301/Frontend-Machine-Coding-Round"
+					target="_blank"
+					style={{ color: "#010409" }}
+				>
+					Github
+				</a>
+			</nav>
 			{components.map(({ name, Component }) => (
 				<Layout key={name} name={name}>
 					<Component />

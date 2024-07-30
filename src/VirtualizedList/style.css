@@ -1,0 +1,17 @@
+.virtual-list-item {
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095ffc4;
+}
+
+.virtual-list-container {
+    width: 80%;
+    height: 400px;
+    margin-top: 12px;
+    overflow-y: scroll;
+}

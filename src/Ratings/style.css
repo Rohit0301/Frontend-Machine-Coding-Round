@@ -1,32 +1,44 @@
 /* All the elements which are not check in ratings div make there label grey */
-.rating:not(:checked) > label {
-    color:#ccc;
+.rating:not(:checked)>label {
+    color: #ccc;
 }
-.rating{
+
+.rating {
     gap: 4px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
 }
 
-.rating label{
+.rating label {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.rating label {
     font-size: 36px;
 }
 
-input[type="radio"]{
+input[type="radio"] {
     display: none;
-}
-
-/* change the color to orange for the label which we hovered */
-.rating > label:hover,
-/* change the color of all label after the current hovered label. since we have reverse the flex direction
-therefore the label before the hovered label affected by this */
-.rating > label:hover ~ label{
-    color: orange;
 }
 
 /* change the color of all label after the current check radio label. since we have reverse the flex direction
 therefore the label before the checked label affected by this */
-.rating > input:checked ~ label{
+.rating>input:checked~label {
     color: orange
+}
+
+/* when we selected any star and again hover on it so i will set all the star color
+to default so that the below hover works fine on all the stars */
+.rating:hover input:checked~label {
+    color: #ccc;
+}
+
+/* change the color to orange for the label which we hovered */
+.rating>label:hover,
+/* change the color of all label after the current hovered label. since we have reverse the flex direction
+therefore the label before the hovered label affected by this */
+.rating>label:hover~label {
+    color: orange !important;
 }
