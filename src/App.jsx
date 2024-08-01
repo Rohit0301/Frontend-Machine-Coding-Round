@@ -8,6 +8,7 @@ import Loader from "./Loader";
 import Ratings from "./Ratings";
 import Accordion from "./Accordion";
 import ProgressBar from "./ProgressBar";
+import FollowCursor from "./FollowCursor";
 import TrafficLights from "./TrafficLights";
 import SelectableGrid from "./SelectableGrid";
 import VirtualizedList from "./VirtualizedList";
@@ -21,7 +22,7 @@ const components = [
 		Component: TrafficLights,
 	},
 	{
-		name: "CShape",
+		name: "C-Shape",
 		Component: CShape,
 	},
 	{
@@ -59,6 +60,10 @@ const components = [
 	{
 		name: "Virtualized List",
 		Component: VirtualizedList,
+	},
+	{
+		name: "Follow Cursor",
+		Component: FollowCursor,
 	},
 ];
 function App() {

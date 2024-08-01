@@ -13,3 +13,4 @@
 - Modal
 - Timer
 - Virtualized List
+- Follow cursor
